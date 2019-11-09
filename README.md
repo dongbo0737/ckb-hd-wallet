@@ -1,11 +1,9 @@
 <p align="center" style="display: flex">
   <a href="http://bitsoda.com">
-    <img width="100" src="https://avatars3.githubusercontent.com/u/55734819?s=200&v=4">
+    <img width="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/Bitsoda-Logo200.jpg">
   </a>
   <a href="https://www.nervos.org/">
-    <div width="100">
-    <img width="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/coins/4d25a434-3c27-4bb1-aed8-98d28c3af0be">
-    </div>
+      <img height="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/coins/ckb.jpg">
   </a>
 </p>
 

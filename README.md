@@ -1,9 +1,9 @@
-<p align="center" style="display: flex">
+<p align="center">
+  <a href="https://www.nervos.org/">
+    <img height="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/coins/ckb.jpg">
+  </a>
   <a href="http://bitsoda.com">
     <img width="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/Bitsoda-Logo200.jpg">
-  </a>
-  <a href="https://www.nervos.org/">
-      <img height="60" src="https://bitsoda-static.oss-cn-shanghai.aliyuncs.com/img/coins/ckb.jpg">
   </a>
 </p>
 

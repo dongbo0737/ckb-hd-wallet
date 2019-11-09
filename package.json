@@ -1,0 +1,9 @@
+{
+  "name": "ckb-hd-wallet",
+  "version": "0.1.1",
+  "description": "BIP-32 and BIP-44 implementation for CKB",
+  "main": "index.js",
+  "repository": "https://github.com/bitsoda-exchange/ckb-hd-wallet.git",
+  "author": "Boyang <boyang@bitsoda.com>",
+  "license": "GNU GPL v3.0"
+}

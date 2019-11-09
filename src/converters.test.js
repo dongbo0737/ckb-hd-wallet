@@ -1,19 +1,10 @@
-const { HDNode } = require('bitcoinjs-lib');
-const bip39 = require('bip39');
+const converters = require('./converters.js');
 
-const converters = {};
-
-converters.mnemonicToXpriXpub = (hdWords, hdPassword) => {
-	if (!bip39.validateMnemonic(hdWords)) {
-		throw 'Error: invalid mnemonic words';
-  }
-  const seedHex = bip39.mnemonicToSeedHex(hdWords, hdPassword);
-  const xprvRoot = HDNode.fromSeedHex(seedHex);
-  const xpubRoot = xprvRoot.neutered();
-  return {
-    xprv: xprvRoot.toBase58(),
-    xpub: xpubRoot.toBase58(),
-  };
-};
-
-module.exports = converters;
+test('converters.mnemonicToXpriXpub', () => {
+  expect(converters.mnemonicToXpriXpub(
+    'element solution uncle close auto eight eight promote bachelor february rival girl', null
+  )).toStrictEqual({
+    "xprv": "xprv9s21ZrQH143K3VMbcHTQZUtTAYnxWvGhUU24PR1Tiu1PhbteCt8KChE5qwCHZzndnbi1AzCY2tz5KBR9zPADH7JEmmtZpxrAmsQxp577eLx",
+    "xpub": "xpub661MyMwAqRbcFyS4iJzQvcqBiadSvNzYqgwfBoR5HEYNaQDnkRSZkVYZhD25oY7hnHgrY6HuHwZmy5BSmWyGbK2Pumk1cZ7bfFvVmBDwiE4",
+  });
+});

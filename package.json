@@ -10,12 +10,16 @@
     "Nervos",
     "Bitsoda"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "license": "GPL-3.0",
   "main": "src/index.js",
   "devDependencies": {
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "bip32": "^2.0.4",
     "bip39": "^3.0.2",
     "bitcoinjs-lib": "^5.1.6"
   }
